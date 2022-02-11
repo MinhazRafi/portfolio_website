@@ -31,14 +31,15 @@ body{
 }
 .welcome-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
-    background-color: #3d5ff5;
+    color: orangered;
+    background-color: skyblue;
     font-weight: bold;
     animation-name: example;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 @keyframes example {
-    from {background-color: #3d5ff5;}
+    from {background-color: skyblue;}
     to {background-color: yellow;}
   }
 .text-heading{
@@ -56,29 +57,37 @@ body{
     height: 500px;
     width: 500px;   
 }
+.social-fb{
+    background-color: seagreen;
+    text-align: center;
+
+}
 .fa {
-    padding: 10px;
     font-size: 30px;
     width: 20px;
     height: 20px;
-    text-align: center;
     text-decoration: none;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-   display: flex;
+    border-radius: 50%;
+    padding: 0.9rem;
+    margin-inline-end: 4rem;
+    margin-inline-start: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   
   .fa:hover {
       opacity: 0.8;
   }
-  
+  .connection{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: 100;
+  }
   .fa-facebook {
     background: #1d53c9;
     color: white;
   }
   .fa-twitter {
-    background: #1f94ee;
+    background: #1d53c9 ;
     color: white;
   }
   .fa-linkedin {
